@@ -1,0 +1,21 @@
+{
+    "name": "freedomsex/password-manager",
+    "description": "simple password manager",
+    "version": "0.1.6",
+    "type": "library",
+    "license": "GPLv3.0",
+    "authors": [
+        {
+            "name": "tebaly",
+            "email": "support@freedomsex.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FreedomSex\\": "src/"
+        }
+    }
+}
